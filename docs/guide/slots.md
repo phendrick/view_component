@@ -310,12 +310,12 @@ Filling in the `visual` slot is done by calling the appropriate slot method:
 <%= render ListItemComponent.new do |component| %>
   <% component.with_visual_avatar(src: "http://some-site.com/my_avatar.jpg", alt: "username") do %>
     Profile
-  <% end >
+  <% end %>
 <% end %>
 <%= render ListItemComponent.new do |component| %>
   <% component.with_visual_icon(icon: :key) do %>
     Security Settings
-  <% end >
+  <% end %>
 <% end %>
 ```
 
